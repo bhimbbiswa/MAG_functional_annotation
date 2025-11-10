@@ -1,1 +1,16 @@
-
+name: prokka
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - prokka=1.14.6
+  - perl
+  - blast
+  - barrnap
+  - hmmer
+  - aragorn
+  - tbl2asn
+  - signalp
+  - biopython
+  - parallel
