@@ -11,6 +11,6 @@ A Snakemake workflow for bacterial and archaeal MAG functional annotation.
 ## Quick Start
 ```bash
 conda install -c bioconda snakemake
-git clone https://github.com/<your_username>/mag_functional_pipeline.git
+git clone https://github.com/bhimbbiswa/MAG_functional_annotation.git
 cd mag_functional_pipeline
 snakemake --use-conda --cores 8
