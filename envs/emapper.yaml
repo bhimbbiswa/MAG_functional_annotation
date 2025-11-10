@@ -1,0 +1,11 @@
+name: emapper
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - eggnog-mapper=2.1.12
+  - diamond=2.1.8
+  - python=3.11
+  - pandas
+  - biopython
